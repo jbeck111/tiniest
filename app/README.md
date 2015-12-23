@@ -16,6 +16,3 @@ until lein refuses to run the app if you prune any further.
 In the project folder, enter the command
 "lein run"
 
-## Note
-
-If you do "lein run", leiningen will create a bunch of supplementary folders. Ignore them, delete them, or git checkout again; whatever.
