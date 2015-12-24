@@ -16,7 +16,6 @@ The resulting database will be in a /db folder.
 ## Origins
 
 https://github.com/yogthos/migratus
-https://github.com/yogthos/migratus-lein
 
 ## Taking it further
 
