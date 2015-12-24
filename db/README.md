@@ -2,4 +2,4 @@
 
 The use of databases
 
-Making / altering the structure: ./migrate
+Making / altering the structure: [migrate](migrate)
