@@ -1,13 +1,12 @@
-# migrate-h2-lein
+# migrate-h2
 
 Migrate (i.e. make / alter) an h2 database.
 
-Within the app's source code. 
-
 ## Usage
 
-Migration instructions (sql statements) go in /migrations.
-Styled as per the instructions at https://github.com/yogthos/migratus
+Put migration instructions in /migrations.
+They are sql statements.
+More details at https://github.com/yogthos/migratus
 
 In the project root folder, enter the command "lein run".
 

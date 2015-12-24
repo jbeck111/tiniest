@@ -1,13 +1,14 @@
-# migrate-h2-programmatically-from-run-args
+# migrate-h2-from-run-args
 
 Migrate (i.e. make / alter) an h2 database.  
-Programmed within the app's source code.  
-Taking a simple run argument of "migrate" or "rollback".  
+Implemented within the app's source code.  
+When the app is run, it takes an argument of "migrate" or "rollback".  
 
 ## Usage
 
-Migration sql statements go in /migrations.
-Styled as per the instructions at https://github.com/yogthos/migratus
+Put migration instructions in /migrations.  
+They are sql statements.  
+More details at https://github.com/yogthos/migratus  
 
 In the project root folder, type "lein run migrate" or "lein run rollback".
 
@@ -19,6 +20,6 @@ https://github.com/yogthos/migratus
 
 ## Taking it further
 
-To take yet another arg in order to specify particular migration or rollback
+To also take a numeric arg in order to specify particular migration or rollback
 by its item number, see migrations.clj file in luminus guestbook example,
 https://github.com/luminus-framework/guestbook/tree/master/src/guestbook/db
