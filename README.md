@@ -1,9 +1,10 @@
 # tiniest
 ### Tiniest clojure apps
 
-These little apps are intended to show the minimal way of doing a thing successfully in Clojure.
+These little apps are some notes that I made while learning Clojure.  
 
-All extraneous stuff (tests, folders) is ruthlessly pruned away so that there is no distraction from the core concept.
+They are an exploration of the minimal way of doing a thing successfully.  
 
-Each has a project.clj to show how the dependencies are specified.  See also the readme for each app.
+All extraneous stuff (tests, folders) is pruned away so that there is no distraction from the core concept.  
 
+Each app has a project.clj to show how the dependencies are specified.  
